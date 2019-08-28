@@ -9,6 +9,8 @@ double y;
 
 typedef int hamil;
 
+const int WHEEL_DIAMETER = 9;
+
 hamil silliness;
 
 enum bobforapples {blue, red, green, purple} c;
@@ -30,6 +32,7 @@ int main() {
     cout << z << endl;
     cout << "\?" << endl;
     cout << TICKS_PER_REVOLUTION << endl;
+    cout << WHEEL_DIAMETER << endl;
     cout << x+y+z;
 
     add(x,y);
