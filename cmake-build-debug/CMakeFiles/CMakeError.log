@@ -1,0 +1,29 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c++: fatal error: -fuse-linker-plugin, but cyglto_plugin.dll not found
+compilation terminated.
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /cygdrive/c/Users/benny/CLionProjects/Game/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe cmTC_29a0e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_29a0e.dir/build.make CMakeFiles/cmTC_29a0e.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/benny/CLionProjects/Game/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_29a0e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTC_29a0e.dir/testCXXCompiler.cxx.o -c /cygdrive/c/Users/benny/CLionProjects/Game/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_29a0e.exe
+/cygdrive/c/Users/benny/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_29a0e.dir/link.txt --verbose=1
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_29a0e.dir/testCXXCompiler.cxx.o  -o cmTC_29a0e.exe -Wl,--out-implib,libcmTC_29a0e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+c++: fatal error: -fuse-linker-plugin, but cyglto_plugin.dll not found
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_29a0e.dir/build.make:87: cmTC_29a0e.exe] Error 1
+make[1]: Leaving directory '/cygdrive/c/Users/benny/CLionProjects/Game/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_29a0e/fast] Error 2
+
+
