@@ -5,6 +5,8 @@ unsigned int z = 4;
 double x;
 double y;
 
+#define TICKS_PER_REVOLUTION 4096
+
 typedef int hamil;
 
 hamil silliness;
@@ -26,6 +28,8 @@ int main() {
     cout << x << endl;
     cout << y << endl;
     cout << z << endl;
+    cout << "\?" << endl;
+    cout << TICKS_PER_REVOLUTION << endl;
     cout << x+y+z;
 
     add(x,y);
