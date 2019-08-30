@@ -11,7 +11,7 @@ typedef int hamil;
 
 const int WHEEL_DIAMETER = 9;
 
-hamil silliness;
+hamil silliness = 11;
 
 enum bobforapples {blue, red, green, purple} c;
 
