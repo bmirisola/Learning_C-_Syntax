@@ -17,6 +17,8 @@ enum bobforapples {blue, red, green, purple} c, r;
 
 bobforapples d;
 
+unsigned i; // unsigned int i;
+
 int add(double x, double y){
     return  x + y;
 
