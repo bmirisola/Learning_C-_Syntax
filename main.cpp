@@ -13,7 +13,7 @@ const int WHEEL_DIAMETER = 9;
 
 hamil silliness = 11;
 
-enum bobforapples {blue, red, green, purple} c;
+enum bobforapples {blue, red, green, purple} c, r;
 
 bobforapples d;
 
