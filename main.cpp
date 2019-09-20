@@ -38,5 +38,9 @@ int main() {
     cout << x+y+z;
 
     add(x,y);
+
+    while (true){
+        cout << "I hate this" << endl;
+    }
     return 0;
 }
